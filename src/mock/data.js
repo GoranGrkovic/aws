@@ -19,8 +19,8 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: "Actuellement à Chambery, j'étudie à l'école 42, une école de programmation informatique qui se base sur l'apprentissage par projet.",
-  paragraphTwo: "Je suis un passionné de programmation. Autodidacte et motivé. Je vous invite à parcourir mon CV.",
-  paragraphThree: '',
+  paragraphTwo: "Je suis un passionné de programmation. Autodidacte et motivé.",
+  paragraphThree:  "Je vous invite à parcourir mon CV.",
   resume: 'https://drive.google.com/file/d/1oevApxvlan_s51N72yYcLasrBNiTKf3F/view?usp=sharing', // if no resume, the button will not show up
 };
 
