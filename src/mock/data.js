@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Portfolio', // e.g: 'Name | Developer'
+  title: 'Portfolio Grkovic Goran', // e.g: 'Name | Developer'
   lang: 'fr', // e.g: en, es, fr, jp
   description: 'Bienvenu sur mon Portfolio', // e.g: Welcome to my website
 };
@@ -28,30 +28,40 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'Camagru.jpg',
-    title: 'Camagru',
-    info: 'Premier projet de la branche Web de 42, mini-Instagram qui permet à des utilisateurs de se connecter et de réaliser et partager des photo-montages.',
-    info2: 'PHP/Javascript Natif, SQL',
-    url: 'https://github.com/GoranGrkovic/Camagru',
-    repo: 'https://github.com/GoranGrkovic/Camagru', // if no repo, the button will not show up
+    img: 'plazzaStatus.jpeg',
+    title: 'PlazzaStatus stage Orange Ocws',
+    info: "Création d'un site de monitoring pour Orange, afin de suivre l'état de Plazza (intranet d'orange) pour c'est utilisateur." +
+        "Connection par Oauth, graphique avec temps de réponse, calendrier maintenance,...",
+    info2: 'ReactJS, NodeJS, ExpressJS, Mongodb, Boostrap, Elatsticsearch, Kibana, Figma',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Hypertube.jpg',
+    title: 'Hypertube',
+    info: "Création d'une application web permettant à un utilisateur de rechercher et visionner des vidéos. Le lecteur est intégré au site, et les vidéos sont téléchargées au travers du protocole BitTorrent. Le moteur de recherche interroge plusieurs sources externes. Une fois un élément sélectionné, il sera téléchargé sur le serveur et diffusé sur le player web en même temps. Autrement dit, le lecteur ne se contente pas d’afficher la vidéo une fois le téléchargement complété, mais est capable de streamer directement le flux.",
+    info2: 'ReactJS, NodeJS, ExpressJS, SQL',
+    url: 'https://github.com/GoranGrkovic/HyperTube',
+    repo: 'https://github.com/GoranGrkovic/HyperTube', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'Matcha.jpg',
     title: 'Matcha',
-    info: 'Création d`un site de rencontres. Conception d`une application permettant à deux potentielles âmes soeurs de se rencontrer, de l’inscription au contact final. L`utilisateur peut s’inscrire, se connecter, compléter son profil, parcourir et rechercher d’autres utilisateurs, les liker, et chatter avec ceux qui auront liké en retour.',
+    info: "Création d'un site de rencontres. Conception d'une application permettant à deux potentielles âmes soeurs de se rencontrer, de l’inscription au contact final. L'utilisateur peut s’inscrire, se connecter, compléter son profil, parcourir et rechercher d’autres utilisateurs, les liker, et chatter avec ceux qui auront liké en retour.",
     info2: 'HTML, CSS, Handlebars, SQL',
     url: 'https://github.com/GoranGrkovic/Matcha',
     repo: 'https://github.com/GoranGrkovic/Matcha', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'Hypertube.jpg',
-    title: 'Hypertube',
-    info: 'Création d`une application web permettant à un utilisateur de rechercher et visionner des vidéos. Le lecteur est intégré au site, et les vidéos sont téléchargées au travers du protocole BitTorrent. Le moteur de recherche interroge plusieurs sources externes. Une fois un élément sélectionné, il sera téléchargé sur le serveur et diffusé sur le player web en même temps. Autrement dit, le lecteur ne se contente pas d’afficher la vidéo une fois le téléchargement complété, mais est capable de streamer directement le flux.',
-    info2: 'ReactJS, NodeJS, ExpressJS, SQL',
-    url: 'https://github.com/GoranGrkovic/HyperTube',
-    repo: 'https://github.com/GoranGrkovic/HyperTube', // if no repo, the button will not show up
+    img: 'Camagru.jpg',
+    title: 'Camagru',
+    info: 'Premier projet de la branche Web de 42, mini-Instagram qui permet à des utilisateurs de se connecter et de réaliser et partager des photo-montages.',
+    info2: 'PHP/Javascript Natif, SQL',
+    url: 'https://github.com/GoranGrkovic/Camagru',
+    repo: 'https://github.com/GoranGrkovic/Camagru', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
